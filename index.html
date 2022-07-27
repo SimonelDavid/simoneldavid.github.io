@@ -1,279 +1,745 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <title>Global</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="HTML5 website template">
-  <meta name="keywords" content="global, template, html, sass, jquery">
-  <meta name="author" content="Bucky Maler">
-  <link rel="stylesheet" href="assets/css/main.css">
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Howdy</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">  
+   <link rel="stylesheet" href="css/main.css">  
+
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
 </head>
-<body>
 
-<!-- notification for small viewports and landscape oriented smartphones -->
-<div class="device-notification">
-  <a class="device-notification--logo" href="#0">
-    <img src="assets/img/logo.png" alt="Global">
-    <p>Global</p>
-  </a>
-  <p class="device-notification--message">Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
-</div>
 
-<div class="perspective effect-rotate-left">
-  <div class="container"><div class="outer-nav--return"></div>
-    <div id="viewport" class="l-viewport">
-      <div class="l-wrapper">
-        <header class="header">
-          <a class="header--logo" href="#0">
-            <img src="assets/img/logo.png" alt="Global">
-            <p>Global</p>
-          </a>
-          <button class="header--cta cta">Hire Us</button>
-          <div class="header--nav-toggle">
-            <span></span>
-          </div>
-        </header>
-        <nav class="l-side-nav">
-          <ul class="side-nav">
-            <li class="is-active"><span>Home</span></li>
-            <li><span>Works</span></li>
-            <li><span>About</span></li>
-            <li><span>Contact</span></li>
-            <li><span>Hire us</span></li>
-          </ul>
-        </nav>
-        <ul class="l-main-content main-content">
-          <li class="l-section section section--is-active">
-            <div class="intro">
-              <div class="intro--banner">
-                <h1>Your next<br>interactive<br>experience</h1>
-                <button class="cta">Hire Us
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                  <span class="btn-background"></span>
-                </button>
-                <img src="assets/img/introduction-visual.png" alt="Welcome">
-              </div>
-              <div class="intro--options">
-                <a href="#0">
-                  <h3>Metiew &amp; Smith</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                </a>
-                <a href="#0">
-                  <h3>Fantasy interactive</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                </a>
-                <a href="#0">
-                  <h3>Paul &amp; shark</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="work">
-              <h2>Selected work</h2>
-              <div class="work--lockup">
-                <ul class="slider">
-                  <li class="slider--item slider--item-left">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-victory.jpg" alt="Victory">
-                      </div>
-                      <p class="slider--item-title">Victory</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-center">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-metiew-smith.jpg" alt="Metiew and Smith">
-                      </div>
-                      <p class="slider--item-title">Metiew &amp; Smith</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-right">
-                    <a href="#0">
-                      <div class="slider--item-image">
-                        <img src="assets/img/work-alex-nowak.jpg" alt="Alex Nowak">
-                      </div>
-                      <p class="slider--item-title">Alex Nowak</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
-                    </a>
-                  </li>
-                </ul>
-                <div class="slider--prev">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
-                  </g>
-                  </svg>
-                </div>
-                <div class="slider--next">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="about">
-              <div class="about--banner">
-                <h2>We<br>believe in<br>passionate<br>people</h2>
-                <a href="#0">Career
-                  <span>
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                    </g>
-                    </svg>
-                  </span>
-                </a>
-                <img src="assets/img/about-visual.png" alt="About Us">
-              </div>
-              <div class="about--options">
-                <a href="#0">
-                  <h3>Winners</h3>
-                </a>
-                <a href="#0">
-                  <h3>Philosophy</h3>
-                </a>
-                <a href="#0">
-                  <h3>History</h3>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="contact">
-              <div class="contact--lockup">
-                <div class="modal">
-                  <div class="modal--information">
-                    <p>Pawia 5, 31-154 Kraków, Poland</p>
-                    <a href="mailto:ouremail@gmail.com">ouremail@gmail.com</a>
-                    <a href="tel:+148126287560">+48 12 628 75 60</a>
-                  </div>
-                  <ul class="modal--options">
-                    <li><a href="#0">Bēhance</a></li>
-                    <li><a href="#0">dribbble</a></li>
-                    <li><a href="mailto:ouremail@gmail.com">Contact Us</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="hire">
-              <h2>You want us to do</h2>
-              <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
-                <div class="work-request--options">
-                  <span class="options-a">
-                    <input id="opt-1" type="checkbox" value="app design">
-                    <label for="opt-1">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      App Design
-                    </label>
-                    <input id="opt-2" type="checkbox" value="graphic design">
-                    <label for="opt-2">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Graphic Design
-                    </label>
-                    <input id="opt-3" type="checkbox" value="motion design">
-                    <label for="opt-3">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Motion Design
-                    </label>
-                  </span>
-                  <span class="options-b">
-                    <input id="opt-4" type="checkbox" value="ux design">
-                    <label for="opt-4">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      UX Design
-                    </label>
-                    <input id="opt-5" type="checkbox" value="webdesign">
-                    <label for="opt-5">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Webdesign
-                    </label>
-                    <input id="opt-6" type="checkbox" value="marketing">
-                    <label for="opt-6">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Marketing
-                    </label>
-                  </span>
-                </div>
-                <div class="work-request--information">
-                  <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
-                    <label for="name">Name</label>
-                  </div>
-                  <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
-                    <label for="email">Email</label>
-                  </div>
-                </div>
-                <input type="submit" value="Send Request">
-              </form>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <ul class="outer-nav">
-    <li class="is-active">Home</li>
-    <li>Works</li>
-    <li>About</li>
-    <li>Contact</li>
-    <li>Hire us</li>
-  </ul>
-</div>
+<body id="top">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-<script src="assets/js/functions-min.js"></script>
+	<!-- header 
+   ================================================== -->
+   <header> 
+
+   	<div class="header-logo">
+	      <a href="index.html">Howdy</a>
+	   </div> 
+
+		<a id="header-menu-trigger" href="#0">
+		 	<span class="header-menu-text">Menu</span>
+		  	<span class="header-menu-icon"></span>
+		</a> 
+
+		<nav id="menu-nav-wrap">
+
+			<a href="#0" class="close-button" title="close"><span>Close</span></a>	
+
+	   	<h3>Howdy.</h3>  
+
+			<ul class="nav-list">
+				<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
+				<li><a class="smoothscroll" href="#about" title="">About</a></li>
+				<li><a class="smoothscroll" href="#skills" title="">Skills</a></li>
+				<li><a class="smoothscroll" href="#credentials" title="">Experience</a></li>
+				<li><a class="smoothscroll" href="#portfolio" title="">Works</a></li>
+				<li><a class="smoothscroll" href="#stats" title="">Stats</a></li>				
+				<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>						
+			</ul>	
+
+			<ul class="header-social-list">
+	         <li>
+	         	<a href="#"><i class="fa fa-facebook-square"></i></a>
+	         </li>
+	         <li>
+	         	<a href="#"><i class="fa fa-twitter"></i></a>
+	         </li>
+            <li>
+            	<a href="#"><i class="fa fa-behance"></i></a>
+            </li>
+	         <li>
+	         	<a href="#"><i class="fa fa-dribbble"></i></a>
+	         </li>
+	         <li>
+	         	<a href="#"><i class="fa fa-instagram"></i></a>
+	         </li>
+	      </ul>		
+
+		</nav>  <!-- end #menu-nav-wrap -->
+
+	</header> <!-- end header -->  
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home">
+
+   	<div class="overlay"></div><div class="gradient-overlay"></div>
+
+   	<div class="home-content-table">		   
+
+		   <div class="home-content-tablecell">
+		   	<div class="row">
+		   		<div class="col-twelve">		   			
+			  			<div class="home-bottom-text">
+
+			  				<h3 class="animate-intro">Hello, World.</h3>
+				  			<h1 class="animate-intro">
+							I am Jonathan Smith. <br>
+							Graphic &amp; UI/UX Designer <br>
+							Based in Manila Philippines. 
+				  			</h1>	
+
+							<ul class="home-section-links">
+								<li class="animate-intro">More <a href="#about" class="smoothscroll">About Me</a></li>
+								<li class="animate-intro">View <a href="#portfolio" class="smoothscroll">My Works</a></li>
+								<li class="animate-intro">Contact <a href="#contact" class="smoothscroll">By Email</a></li>								
+							</ul>
+
+			  			</div> <!-- end home-bottom-text -->
+			   	</div> <!-- end col-twelve --> 
+		   	</div> <!-- end row --> 
+		   </div> <!-- end home-content-tablecell --> 		   
+		</div> <!-- end home-content-table -->
+
+		<a href="#about" class="scroll-icon smoothscroll">		
+		   <span class="icon-DownArrow"></span>
+		</a>	
+   
+   </section> <!-- end home -->
+
+
+   <!-- about
+   ================================================== -->
+   <section id="about">
+
+   	<div class="about-profile-bg"></div>
+
+   	<div class="about-wrap">
+
+   		<div class="about-profile">
+
+   			<div class="about-profile-bg"></div>
+
+				<div class="intro">
+					<h3 class="animate-this">About</h3>
+	   			<h1 class="animate-this">More About Me.</h1>
+
+	   			<p class="lead animate-this">Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit culpa consectetur nostrud consectetur labore sed do.</p>					
+				</div>   		
+
+   			<p class="animate-this">
+   			Lorem ipsum Nisi officia Duis irure voluptate dolor commodo pariatur occaecat aliquip adipisicing voluptate Ut in qui ea sint occaecat in commodo in in in incididunt ut sunt in Ut Duis in ut ex qui anim cupidatat cupidatat ex in non dolore labore ea amet cillum ea qui dolor nisi sed velit mollit exercitation ex fugiat labore in deserunt culpa laborum culpa anim dolore laboris amet irure mollit proident velit fugiat aute ea elit magna consequat qui officia quis elit Duis dolor esse cupidatat tempor proident voluptate aliqua ex cupidatat do eiusmod veniam irure laborum ut magna nostrud dolore ullamco commodo elit sit magna aliqua laborum veniam officia dolor.	
+   			</p>
+
+   			<p class="animate-this">Lorem ipsum Minim nisi dolore proident Ut dolor quis deserunt voluptate Ut voluptate enim ut adipisicing fugiat cupidatat nisi adipisicing labore non adipisicing in sit proident. Ut in qui ea sint occaecat in commodo in in in incididunt ut</p>
+
+   			<p>
+   				<a href="#" class="button full-width animate-this">Contact Me</a>
+   				<a href="#" class="button button-primary full-width animate-this">Download CV</a>
+   			</p>  			
+
+   		</div> <!-- end about-profile  -->
+
+   		<div class="about-services">
+
+				<div class="intro">
+	   			<h3 class="animate-this">Services</h3>
+	   			<h1 class="animate-this">What I Do.</h1>
+
+	   			<p class="lead animate-this">Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit. Ut dolor quis deserunt voluptate.</p>
+   			</div>
+
+   			<ul class="services">
+   				<li class="item-branding animate-this">
+   					<div class="icon-wrap">
+   						<i class="icon-RegisteredTrademark"></i>
+   					</div>
+   					<div class="service-item">
+   						<h4>Branding</h4>
+   						<p>Lorem ipsum Sit Ut eu Ut commodo velit ea et ex officia dolor laborum do in quis ut in occaecat non Duis ut sint voluptate esse consequat aute incididunt in voluptate incididunt.
+   						</p>
+   					</div>   					
+   				</li>
+   				<li class="item-photography animate-this">
+   					<div class="icon-wrap">
+   						<i class="icon-Picture"></i>
+   					</div>
+   					<div class="service-item">
+   						<h4>Photography</h4>
+   						<p>Lorem ipsum Sit Ut eu Ut commodo velit ea et ex officia dolor laborum do in quis ut in occaecat non Duis ut sint voluptate esse consequat aute incididunt in voluptate incididunt.
+   						</p>
+   					</div>   					
+   				</li>
+   				<li class="item-webdesign animate-this">
+   					<div class="icon-wrap">
+   						<i class="icon-HTML"></i>
+   					</div>
+   					<div class="service-item">
+   						<h4>Web Design</h4>
+   						<p>Lorem ipsum Sit Ut eu Ut commodo velit ea et ex officia dolor laborum do in quis ut in occaecat non Duis ut sint voluptate esse consequat aute incididunt in voluptate incididunt.
+   						</p>
+   					</div>   					
+   				</li>
+   				<li class="item-uiux animate-this">
+   					<div class="icon-wrap">
+   						<i class="icon-Checked"></i>
+   					</div>
+   					<div class="service-item">
+   						<h4>UI/UX Design</h4>
+   						<p>Lorem ipsum Sit Ut eu Ut commodo velit ea et ex officia dolor laborum do in quis ut in occaecat non Duis ut sint voluptate esse consequat aute incididunt in voluptate incididunt.
+   						</p>
+   					</div>   					
+   				</li>
+   			</ul>   			
+
+   		</div> <!-- end about-services  -->   		
+
+   	</div> <!-- end about-wrap  -->
+
+   </section> <!-- end about -->
+
+
+   <!-- about
+   ================================================== -->
+   <section id="skills">
+
+   	<div class="overlay"></div>
+   	<div class="gradient-overlay"></div>
+   	
+   	<div class="row wide">
+   		<div class="col-skills">
+
+   			<div class="section-intro">
+   				<h3 class="animate-this">Skillset</h3>
+   			   <h1 class="animate-this">I've Got Some Skills.</h1>
+   			
+   			   <p class="animate-this">Lorem ipsum Elit ut consequat veniam eu nulla nulla reprehenderit reprehenderit sit velit in cupidatat ex aliquip ut cupidatat Excepteur tempor id irure sed dolore sint sunt voluptate ullamco nulla qui Duis qui culpa voluptate enim ea aute qui veniam in irure et nisi nostrud deserunt est officia minim.</p>
+   			</div>
+
+   			<ul class="skill-bars">
+				   <li class="animate-this" data-animate="fadeInRight">
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>HTML5</strong>
+				   </li>
+				   <li class="animate-this" data-animate="fadeInRight">
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>CSS3</strong>
+				   </li>
+				   <li class="animate-this" data-animate="fadeInRight">
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>JQuery</strong>
+				   </li>
+				   <li class="animate-this" data-animate="fadeInRight">
+				   	<div class="progress percent95"><span>95%</span></div>
+				   	<strong>PHP</strong>
+				   </li>
+				   <li class="animate-this" data-animate="fadeInRight">
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>Wordpress</strong>
+				   </li>   
+				   <li class="animate-this" data-animate="fadeInRight">
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>Angular JS</strong>
+				   </li>   
+				</ul>
+   			
+   		</div> <!-- end col-six -->
+   	</div> <!-- end row wide -->
+
+   </section> <!-- end skills -->
+
+
+   <!-- credentials
+   ================================================== -->
+   <section id="credentials">
+
+   	<div class="row narrow section-intro with-bottom-sep">
+   		<div class="col-twelve">
+   			<h3 class="animate-this">Career and Education</h3>
+	   		<h1 class="animate-this">More of My Credentials.</h1>  			
+	   		
+	   		<p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>	   			
+   		</div>   		
+   	</div> <!-- end section-intro -->
+
+		<div class="row wide credentials-content">
+
+			<div class="col-six tab-full left">
+
+				<h2 class="animate-this">Experience</h2>
+
+	   		<div class="timeline-wrap">
+
+   				<div class="timeline-block animate-this">
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+	   				<div class="timeline-header">
+	   					<p class="timeframe">July 2015 - Present</p>
+	   					<h3>Awesome Studio</h3>
+	   					<h4>UI Designer</h4>	   					
+	   				</div>
+	   				<div class="timeline-content">	   					
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+	   				</div>
+	   			</div> <!-- end timeline-block -->
+
+	   			<div class="timeline-block animate-this">
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+	   				<div class="timeline-header">
+	   					<p class="timeframe">July 2014 - June 2015</p>
+	   					<h3>Super Cool Agency</h3>
+	   					<h4>Front-end Developer</h4>	   				
+	   				</div>
+	   				<div class="timeline-desc">	   					
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+	   				</div>
+	   			</div> <!-- end timeline-block -->
+
+	   			<div class="timeline-block animate-this">
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+	   				<div class="timeline-header">
+	   					<p class="timeframe">May 2013 - June 2014</p>
+	   					<h3>Great Designs Studio</h3>
+	   					<h4>Web Designer</h4>	   					
+	   				</div>
+	   				<div class="timeline-content">	   					
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+	   				</div>
+	   			</div> <!-- end timeline-block -->
+
+   			</div> <!-- end timeline-wrap -->				
+   		
+	   	</div> <!-- end col-six -->
+
+	   	<div class="col-six tab-full right">
+
+	   		<h2 class="animate-this">Education</h2>
+
+				<div class="timeline-wrap">
+
+   				<div class="timeline-block animate-this">
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+	   				<div class="timeline-header">
+	   					<p class="timeframe">June 2012 - April 2013</p>
+	   					<h3>University of Life</h3>
+	   					<h4>Master Degree</h4>	   					
+	   				</div>
+	   				<div class="timeline-content">	   					
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+	   				</div>
+	   			</div> <!-- end timeline-block -->
+
+	   			<div class="timeline-block animate-this">
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+	   				<div class="timeline-header">
+	   					<p class="timeframe">June 2008 - March 2012</p>
+	   					<h3>State Design University</h3>
+	   					<h4>Bachelor Degree</h4>	   				
+	   				</div>
+	   				<div class="timeline-desc">	   					
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+	   				</div>
+	   			</div> <!-- end timeline-block -->
+
+	   			<div class="timeline-block animate-this">
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+	   				<div class="timeline-header">
+	   					<p class="timeframe">June 2006 - October 2008</p>
+	   					<h3>Design College</h3>
+	   					<h4>Bachelor Degree</h4>	   					
+	   				</div>
+	   				<div class="timeline-content">	   					
+	   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+	   				</div>
+
+	   			</div> <!-- end timeline-block -->
+
+   			</div> <!-- end timeline-wrap -->	   		
+	   		
+	   	</div> <!-- end col-six --> 			
+
+		</div> <!-- end row wide -->    	  	
+
+   </section> <!-- end credentials -->
+   
+
+	<!-- portfolio
+   ================================================== -->
+   <section id="portfolio">
+
+   	<div class="row narrow section-intro with-bottom-sep">
+   		<div class="col-twelve">
+   			<h3 class="animate-this">Portfolio</h3>
+	   		<h1 class="animate-this">See My Latest Projects.</h1>  			
+	   		
+	   		<p class="lead animate-this">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>	   			
+   		</div>   		
+   	</div> <!-- end row section-intro -->
+
+   	<div class="row portfolio-content">
+   		<div class="col-twelve">
+   			<div id="folio-wrap" class="bricks-wrapper">					
+
+   				<div class="brick folio-item">
+	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-skaterboy.jpg" data-sub-html="#01" > 	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/skaterboy.jpg" alt="Skaterboy">	                     
+	                     <div class="item-text">
+	                     	<span class="folio-types">
+		     					      Web Development
+		     					   </span>
+		     					   <h3 class="folio-title">Skaterboy</h3>	     					   
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-UpRightArrow"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+						
+						<div id="01" class='hide'>
+							<h4>Skater Boy</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+						</div>
+	        		</div> <!-- end folio-item -->
+
+	        		<div class="brick folio-item">
+	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-shutterbug.jpg" data-sub-html="#02"> 	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">	                     
+	                     <div class="item-text">
+	                     	<span class="folio-types">
+		     					      Photography
+		     					   </span>
+		     					   <h3 class="folio-title">Shutterbug</h3>  	     					   
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-UpRightArrow"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="02" class='hide'>
+							<h4>Shutterbug</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+						</div>	               
+	        		</div> <!-- end folio-item -->
+
+	        		<div class="brick folio-item">
+	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-explore.jpg" data-sub-html="#03" >   	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/explore.jpg" alt="Explore">	                     
+	                     <div class="item-text">	                     		     					    
+		     					   <span class="folio-types">
+		     					      UI/UX Design
+		     					   </span>
+		     					   <h3 class="folio-title">Explore</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-UpRightArrow"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->	
+
+	               <div id="03" class='hide'>
+							<h4>Explore</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+						</div>               
+	        		</div> <!-- end folio-item -->
+
+					<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-minimalismo.jpg"  data-sub-html="#04" >
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/minimalismo.jpg" alt="Minimalismo">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					      Web Design
+		     					   </span>
+		     					   <h3 class="folio-title">Minimalismo</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-UpRightArrow"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="04" class='hide'>
+							<h4>Minimalismo</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+						</div>  	               
+	        		</div> <!-- end folio-item -->
+
+					<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-bicycle.jpg"  data-sub-html="#05" >  	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/bicycle.jpg" alt="Bicycle">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					      Branding
+		     					   </span>
+		     					   <h3 class="folio-title">Bicycle</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-UpRightArrow"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="05" class='hide'>
+							<h4>Bicycle</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+						</div>	               
+	        		</div> <!-- end folio-item -->
+	           
+					<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-salad.jpg"  data-sub-html="#06">     	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/salad.jpg" alt="Salad">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					      Photography
+		     					   </span>
+		     					   <h3 class="folio-title">Salad</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.behance.net/" class='details-link' title="details">
+	                  	<i class="icon-UpRightArrow"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="06" class='hide'>
+							<h4>Salad</h4>
+							<p>Lorem ipsum Dolor deserunt labore sint officia. Magna et aute enim proident tempor sunt quis nulla voluptate fugiat velit. <a href="www.behance.net">Details</a></p>
+						</div>	               
+	        		</div> <!-- end folio-item -->   				
+
+   			</div> <!-- end folio-wrap -->
+   		</div> <!-- end twelve -->
+   	</div> <!-- end portfolio-content -->   	
+
+   </section>  <!-- end portfolio -->
+
+
+	<!-- stats
+   ================================================== -->
+   <section id="stats">
+
+		<div class="row">
+			<div class="col-twelve">
+				<div class="block-1-4 block-tab-1-2 block-mob-full stats-list">
+
+					<div class="bgrid stat">
+						<div class="icon-part">
+							<i class="icon-Briefcase"></i>
+						</div>
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+						<h3 class="stat-count">430</h3>
+					</div> <!-- end stat -->					
+
+					<div class="bgrid stat">
+						<div class="icon-part">
+							<i class="icon-AddressBook"></i>
+						</div>
+						<h5 class="stat-title">
+							Happy Clients
+						</h5>
+						<h3 class="stat-count">390</h3>
+					</div> <!-- end stat -->
+
+					<div class="bgrid stat">
+						<div class="icon-part">
+							<i class="icon-Diploma1"></i>
+						</div>
+						<h5 class="stat-title">
+							Awards Received
+						</h5>
+						<h3 class="stat-count">100</h3>
+					</div> <!-- end stat -->									
+
+					<div class="bgrid stat">
+						<div class="icon-part">
+							<i class="icon-Idea"></i>
+						</div>
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+						<h3 class="stat-count">120</h3>
+					</div> <!-- end stat -->
+					
+				</div> <!-- end stats-list -->
+			</div> <!-- end col-twelve -->
+		</div> <!-- end row -->
+
+   </section> <!-- end stats -->
+
+
+	<!-- contact
+   ================================================== -->
+   <section id="contact">
+
+      <div class="overlay"></div>
+
+		<div class="row narrow section-intro">
+   		<div class="col-twelve">
+   			<h3 class="animate-this">Contact</h3>
+   			<h1 class="animate-this">I'm Available for Freelance Work. Feel Free to Contact Me.</h1>
+
+   			<p class="lead animate-this">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+   		</div> 
+   	</div> <!-- end section-intro -->
+
+   	<div class="row contact-form">
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post">
+      			
+
+                  <div class="form-field animate-this">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field animate-this">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field animate-this">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field animate-this">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div> 
+
+                  <div class="form-field animate-this">
+                     <button class="submitform">Submit</button>
+
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning"></div> 
+
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- end col-twelve -->   		
+   	</div> <!-- end row contact-form -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+   			<h5 class="animate-this">Where to find me</h5>
+
+   			<p class="animate-this">
+            1600 Amphitheatre Parkway<br>
+            Mountain View, CA<br>
+            94043 US
+            </p>
+   		</div> <!-- end col-four -->
+
+   		<div class="col-four tab-full collapse">
+   			<h5 class="animate-this">Email Me At</h5>
+
+   			<p class="animate-this">
+   				someone@howdywebsite.com<br>
+			   	info@howdywebsite.com			     
+			   </p>
+   		</div> <!-- end col-four -->
+
+   		<div class="col-four tab-full">
+   			<h5 class="animate-this">Call Me At</h5>
+
+   			<p class="animate-this">
+   				Phone: (+63) 555 1212<br>
+			   	Mobile: (+63) 555 0100<br>
+			     	Fax: (+63) 555 0101
+			   </p>
+   		</div> <!-- end col-four -->
+   		
+   	</div> <!-- end row contact-info -->
+		
+	</section> <!-- end contact -->
+
+
+	<!-- footer
+   ================================================== -->
+	<footer>
+     	<div class="row">
+
+     		<div class="col-twelve tab-full social">
+     			<ul class="footer-social">        
+			      <li><a href="#">Facebook</a></li>
+			      <li><a href="#">Twitter</a></li>
+			      <li><a href="#">Behance</a></li>
+			      <li><a href="#">Dribble</a></li>
+			      <li><a href="#">Instagram</a></li>
+			   </ul> 	      		
+	      </div>
+
+      	<div class="col-twelve tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright Howdy 2016.</span> 		        	         	
+		      </div>		                  
+	      </div>      	
+
+      </div> <!-- end row -->
+
+      <div id="go-top">
+		   <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-UpArrow"></i></a>
+		</div>		
+   </footer>
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
 </body>
+
 </html>
