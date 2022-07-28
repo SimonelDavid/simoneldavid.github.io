@@ -623,27 +623,28 @@
    		<div class="col-twelve">
 
             <!-- form -->
-            <form name="contactForm" id="contactForm" method="post">
-      			
+            <form action="https://formsubmit.co/3f42a159b6e6e34fc4cb8d82c958ac4b" method="post">
+
 
                   <div class="form-field animate-this">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+ 						   <input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
                   </div>
                   <div class="form-field animate-this">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	      			   <input name="email" type="email" id="contactEmail" placeholder="Email" value="" required="">
+					   <input type="hidden" name="_next" value="https://simoneldavid.github.io/Personal-website/">
 	               </div>
                   <div class="form-field animate-this">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
-	               </div>                       
+	     				   <input name="_subject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>
                   <div class="form-field animate-this">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-	               </div> 
+	                 	<textarea name="message" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>
 
                   <div class="form-field animate-this">
                      <button class="submitform">Submit</button>
 
                      <div id="submit-loader">
-                        <div class="text-loader">Sending...</div>                             
+                        <div class="text-loader">Sending...</div>
        				      <div class="s-loader">
 								  	<div class="bounce1"></div>
 								  	<div class="bounce2"></div>
@@ -651,19 +652,35 @@
 								</div>
 							</div>
                   </div>
-
-      			
+				<!--
+				<script src="https://smtpjs.com/v3/smtp.js"></script>
+				<script>
+					function sendEmail(){
+						Email.send({
+							Host : "smtp.gmail.com",
+							Username : "simoneldavid17@gmail.com",
+							Password : "password",
+							To : 'them@website.com',
+							From : "you@isp.com",
+							Subject : "This is the subject",
+							Body : "And this is the body"
+						}).then(
+						  message => alert(message)
+						);
+					}
+				</script>
+				-->
       		</form> <!-- Form End -->
 
             <!-- contact-warning -->
-            <div id="message-warning"></div> 
+            <div id="message-warning"></div>
 
             <!-- contact-success -->
       		<div id="message-success">
                <i class="fa fa-check"></i>Your message was sent, thank you!<br>
       		</div>
 
-         </div> <!-- end col-twelve -->   		
+         </div> <!-- end col-twelve -->
    	</div> <!-- end row contact-form -->
 
    	<div class="row contact-info">
