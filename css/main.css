@@ -2001,7 +2001,7 @@ header .header .english a {
 	height: 100%;
 	background: #EBEBEB;
 	width: 50%;
-	background-image: url(../images/profile-bg.jpg);
+	background-image: url(../images/photos/portrait-1.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
@@ -2509,6 +2509,85 @@ header .header .english a {
 	clear: both;
 }
 
+#portfolio .credentials-content h2 {
+	margin-bottom: 4.8rem;
+	color: #4C2405;
+	padding-left: 8rem;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	letter-spacing: .15rem;
+	position: relative;
+}
+
+#portfolio .credentials-content h2::before {
+	display: block;
+	content: "";
+	height: 3px;
+	width: 4rem;
+	background-color: #aeaeae;
+	position: absolute;
+	top: 50%;
+	left: 2rem;
+	margin-top: -3px;
+}
+
+#portfolio .left {
+	padding-right: 40px;
+}
+
+#portfolio .right {
+	padding-left: 40px;
+}
+
+#portfolio .timeline-wrap {
+	position: relative;
+	text-align: left;
+}
+
+#portfolio .timeline-wrap::before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	left: 2rem;
+	top: 0;
+}
+
+#portfolio .timeline-block {
+	position: relative;
+	padding-left: 8rem;
+	margin-bottom: 4.2rem;
+}
+
+#portfolio .timeline-ico {
+	height: 4.8rem;
+	width: 4.8rem;
+	line-height: 4.8rem;
+	background: #067c91;
+	border-radius: 50%;
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	left: 2rem;
+	top: 0;
+	margin-left: -2.4rem;
+}
+
+#portfolio .timeline-header .timeframe {
+	font-family: "montserrat-regular", sans-serif;
+	font-size: 1.6rem;
+	color: #757575;
+	margin-bottom: 0;
+}
+
+#portfolio .timeline-header h3 {
+	font-size: 2.4rem;
+	line-height: 1.25;
+	margin-bottom: 0;
+}
+
 /* ------------------------------------------------------------------- 
  * masonry entries - (_layout.css) 
  * ------------------------------------------------------------------- */
@@ -2839,7 +2918,7 @@ header .header .english a {
  * ------------------------------------------------------------------- */
 #contact {
 	background-color: #111111;
-	background-image: url(../images/profile-bg.jpg);
+	background-image: url(../images/photos/DSC_7781_edited_4.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	-webkit-background-size: cover;
