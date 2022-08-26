@@ -2715,7 +2715,7 @@ header .header-logo a {
 #stats .stat h5 {
 	color: #FFFFFF;
 	margin-top: 1.5rem;
-	font-size: 1.4rem;
+	font-size: 1rem;
 }
 
 #stats .stat h3 {
@@ -2732,6 +2732,32 @@ header .header-logo a {
 }
 
 #stats .stat h3::before {
+	content: "";
+	display: inline-block;
+	width: 80px;
+	height: 3px;
+	background-color: rgba(5, 100, 139, 0.1);
+	background-color: rgba(255, 255, 255, 0.1);
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -40px;
+}
+
+#stats .stat h2 {
+	color: #FFFFFF;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	margin: 1.5rem 0 0 0;
+	padding-top: 1.5rem;
+	line-height: 1;
+	font-family: "montserrat-bold", sans-serif;
+	position: relative;
+	text-align: center;
+}
+
+#stats .stat h2::before {
 	content: "";
 	display: inline-block;
 	width: 80px;
