@@ -331,7 +331,7 @@
 	   					<i class="fa fa-briefcase"></i>
 	   				</div>
 	   				<div class="timeline-header">
-	   					<p class="timeframe">December 2021 - Present</p>
+	   					<p class="timeframe">December 2021 - September 2022</p>
 	   					<h3>Romanian Space Initiative</h3>
 	   					<h4>ROSPIN School Project Manager</h4>	   					
 	   				</div>
