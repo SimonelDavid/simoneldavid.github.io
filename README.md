@@ -28,6 +28,11 @@
    ================================================== -->
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
+	<script async src="https://api.countapi.xyz/hit/simoneldavid.github.io/e047e9bd-c2f3-4363-98e1-2edef343ca43?callback=websiteVisits">
+		function websiteVisits(response) {
+			document.querySelector("#visits").textContent = response.value;
+		}
+	</script>
 
    <!-- favicons
 	================================================== -->
@@ -540,10 +545,9 @@
 						<h5 class="stat-title">
 							More than
 						</h5>
-						<h3><script src="https://apps.elfsight.com/p/platform.js" defer></script>
-							<div class="elfsight-app-c732007f-4f25-4387-9a4e-9c3c808e128d"></div></h3>
+						<h3 class="stat-count" id="visits"></h3>
 						<h2 class="stat-title">
-							Visitors to the website
+							Visits to the website
 						</h2>
 					</div> <!-- end stat -->					
 
