@@ -540,7 +540,7 @@
 						<h3 class="stat-count"><script src="https://apps.elfsight.com/p/platform.js" defer></script>
 							<div class="elfsight-app-c732007f-4f25-4387-9a4e-9c3c808e128d"></div></h3>
 						<h2 class="stat-title">
-							Visitors to the website
+							Visitors to the website 
 						</h2>
 					</div> <!-- end stat -->					
 
