@@ -325,7 +325,7 @@
 
    				<div class="timeline-block animate-this">
 	   				<div class="timeline-ico">
-	   					<i class="fa fa-briefcase"></i>
+	   					<i class="fa fa-briefcase" ></i>
 	   				</div>
 	   				<div class="timeline-header">
 	   					<p class="timeframe">December 2021 - September 2022</p>
