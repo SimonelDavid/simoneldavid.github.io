@@ -10,9 +10,6 @@
 	<title>Simonel David</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
-   <meta http-equiv='cache-control' content='no-cache'> 
-   <meta http-equiv='expires' content='0'> 
-   <meta http-equiv='pragma' content='no-cache'>
 
    <!-- mobile specific metas
    ================================================== -->
@@ -28,11 +25,7 @@
    ================================================== -->
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
-	<script async src="https://api.countapi.xyz/hit/simoneldavid.github.io/e047e9bd-c2f3-4363-98e1-2edef343ca43?callback=websiteVisits">
-		function websiteVisits(response) {
-			document.querySelector("#visits").textContent = response.value;
-		}
-	</script>
+	<script async src="https://api.countapi.xyz/hit/simoneldavid.github.io/e047e9bd-c2f3-4363-98e1-2edef343ca43?callback=websiteVisits"></script>
 
    <!-- favicons
 	================================================== -->
@@ -545,7 +538,7 @@
 						<h5 class="stat-title">
 							More than
 						</h5>
-						<h3 class="stat-count" id="visits"></h3>
+						<h3 class="stat-count" id="visits"><span id="visits"></span></h3>
 						<h2 class="stat-title">
 							Visits to the website
 						</h2>
