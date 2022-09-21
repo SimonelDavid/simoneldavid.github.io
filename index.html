@@ -538,7 +538,7 @@
 						<h5 class="stat-title">
 							More than
 						</h5>
-						<h3 class="stat-count" id="visits"><span id="visits"></span></h3>
+						<h3 class="stat-count"><span id="visits"></span></h3>
 						<h2 class="stat-title">
 							Visits to the website
 						</h2>
