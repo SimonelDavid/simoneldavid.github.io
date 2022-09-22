@@ -25,7 +25,7 @@
    ================================================== -->
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
-	<script async src="https://api.countapi.xyz/hit/simoneldavid.github.io/e047e9bd-c2f3-4363-98e1-2edef343ca43?callback=websiteVisits"></script>
+	<script async src="https://api.countapi.xyz/hit/simoneldavid.github.io/c249ca82-bd16-44ab-ab37-53153f1b9b12?callback=websiteVisits"></script>
 
    <!-- favicons
 	================================================== -->
@@ -533,7 +533,7 @@
 
 					<div class="bgrid stat">
 						<div class="icon-part">
-							<i class="fa fa-file-code-o"></i>
+							<i class="fa fa-users"></i>
 						</div>
 						<h5 class="stat-title">
 							More than
